@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap");
+
+body {
+  font-family: "Elms Sans", sans-serif;
+  background-color: silver;
+}
+.app-container main .sections,
+.app-container main .aside {
+  display: inline-block;
+}
+.app-container main .sections {
+  width: 70%;
+}
+.app-container main .aside {
+  width: 29%;
+}
+.border {
+  border-width: 3px;
+  border-color: silver;
+  border-style: solid;
+}
+.bg-white {
+  background-color: rgb(255, 255, 255);
+}
+
+#app-header,
+#app-nav,
+#app-footer {
+  height: 100px;
+  text-align: center;
+  border: 3px solid silver;
+}
